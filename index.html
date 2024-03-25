@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img src="imagenes/Logo.png" alt="logo de Alura" class="logo-alura">
+        </header>
+
+        <section class="caja-sin-encriptar">
+            <label for="mensaje-sin-encriptar" class="titulo-principal">Ingrese el texto aqui</label>
+            <textarea name="mensaje-sin-encriptar" cols="80" rows="20" class="input-sin-encriptar" required></textarea>
+            <div class="mensaje-advertencia">
+                <img src="imagenes/bi_exclamation-circle-fill.png" alt="Signo de advertencia">
+                <h3>Solo letras minúsculas y sin acentos</h3>
+            </div>
+            <button type="button">Encriptar</button>
+            <button type="button">Desencriptar</button>
+        </section>
+
+        <section class="caja-encriptada">
+            <img src="imagenes/Muñeco.png" alt="muñeco">
+            <h2 class="titulo-principal">Ningún mensaje fue encontrado</h2>
+            <h3 class="instrucción">Ingresa el texto que deseas encriptar o desencriptar.</h3>
+            <div id="mensaje-encriptado">
+                <p></p>
+                <button>Copiar</button>
+            </div>
+        </section>
+
+        <script>
+            function myFunction() {
+              document.getElementById("mensaje-encriptado").style.display = "none";
+            }
+        </script>
+
+        <footer>
+            <h4 class="nombre">by Mariana da Vila</h4>
+            <a href="https://github.com/Mariand5"><img src="imagenes/github-logo.png"></a>
+            <a href="https://www.linkedin.com/in/mariana-da-vila-b212b52ab/"><img src="imagenes/linkedin-square-logo.png"></a>
+        </footer>
+    </body>
+</html>

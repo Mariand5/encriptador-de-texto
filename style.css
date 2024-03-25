@@ -1,0 +1,37 @@
+body{
+    background-color: #EFF1FA;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.logo-alura{
+    width: 8em;
+    margin: 20px 10px;
+}
+
+.caja-sin-encriptar{
+    width: 80%;
+    margin: 15px auto;
+}
+
+.titulo-principal{
+    color: #0A3871;
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+.input-sin-encriptar{
+    border: none;
+    display: block;
+    background: #EFF1FA;
+    margin: 0 0 10px;
+}
+
+.mensaje-advertencia img{
+    display: inline-block;
+}
+
+button{
+    display: inline-block;
+}
